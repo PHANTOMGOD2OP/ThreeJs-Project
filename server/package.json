@@ -4,6 +4,9 @@
   "type": "module",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": ">=NODE_JS_VERSION"
+},
   "scripts": {
     "start": "nodemon index.js"
   },
