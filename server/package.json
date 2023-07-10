@@ -6,7 +6,7 @@
   "main": "index.js",
   "engines": {
     "node": ">=NODE_JS_VERSION"
-},
+  },
   "scripts": {
     "start": "nodemon index.js"
   },
@@ -14,6 +14,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.20.2",
     "cloudinary": "^1.36.2",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",

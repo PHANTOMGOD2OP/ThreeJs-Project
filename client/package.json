@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "proxy": "https://project-backend-3d.onrender.com",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

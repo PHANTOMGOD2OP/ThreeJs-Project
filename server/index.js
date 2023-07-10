@@ -9,6 +9,7 @@ dotenv.config();
 const app = express();
 app.use(cors());
 app.use(express.json({ limig: "50mb" }))
+app.use(bodyParser.json()); 
 
 app.use("/api/v1/dalle", dalleRoutes);
 
