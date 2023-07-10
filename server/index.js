@@ -1,7 +1,7 @@
 import express from 'express';
 import * as dotenv from 'dotenv';
 import cors from 'cors';
-
+import bodyParser from 'bodyParser';
 import dalleRoutes from './routes/dalle.routes.js';
 
 dotenv.config();
