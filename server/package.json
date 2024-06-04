@@ -4,12 +4,6 @@
   "type": "module",
   "description": "",
   "main": "index.js",
-<<<<<<< HEAD
-=======
-  "engines": {
-    "node": ">14.17.0"
-  },
->>>>>>> 4d6fb1ddd87618deb14f3f18328918530ccfd088
   "scripts": {
     "start": "nodemon index.js"
   },
@@ -17,20 +11,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-<<<<<<< HEAD
     "cloudinary": "^1.35.0",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "mongoose": "^7.0.3",
-=======
-    "body-parser": "^1.20.2",
-    "cloudinary": "^1.36.2",
-    "cors": "^2.8.5",
-    "dotenv": "^16.0.3",
-    "express": "^4.18.2",
-    "mongoose": "^7.1.0",
->>>>>>> 4d6fb1ddd87618deb14f3f18328918530ccfd088
     "nodemon": "^2.0.22",
     "openai": "^3.2.1"
   }
