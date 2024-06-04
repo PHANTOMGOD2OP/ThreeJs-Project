@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import React from 'react';
+=======
+import React from 'react'
+>>>>>>> 4d6fb1ddd87618deb14f3f18328918530ccfd088
 import { easing } from 'maath';
 import { useSnapshot } from 'valtio';
 import { useFrame } from '@react-three/fiber';
@@ -27,7 +31,11 @@ const Shirt = () => {
         dispose={null}
       >
         {snap.isFullTexture && (
+<<<<<<< HEAD
           <Decal
+=======
+          <Decal 
+>>>>>>> 4d6fb1ddd87618deb14f3f18328918530ccfd088
             position={[0, 0, 0]}
             rotation={[0, 0, 0]}
             scale={1}
@@ -36,7 +44,11 @@ const Shirt = () => {
         )}
 
         {snap.isLogoTexture && (
+<<<<<<< HEAD
           <Decal
+=======
+          <Decal 
+>>>>>>> 4d6fb1ddd87618deb14f3f18328918530ccfd088
             position={[0, 0.04, 0.15]}
             rotation={[0, 0, 0]}
             scale={0.15}
@@ -48,7 +60,14 @@ const Shirt = () => {
         )}
       </mesh>
     </group>
+<<<<<<< HEAD
   );
 };
 
 export default Shirt;
+=======
+  )
+}
+
+export default Shirt
+>>>>>>> 4d6fb1ddd87618deb14f3f18328918530ccfd088
